@@ -1,7 +1,7 @@
 function filterArray(numbers, value) {
     let mass = [];
     let num = numbers.length;
-    for (let i = 0; i <= num; i++) {
+    for (let i = 0; i < num; i++) {
         if (numbers[i] > value) {
             mass.push(numbers[i]);
         }
